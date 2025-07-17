@@ -1,0 +1,42 @@
+{
+  "name": "discord-guard-bot",
+  "version": "1.0.0",
+  "description": "Advanced Discord security bot with moderation monitoring, limit system, and automatic protection features",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "setup": "npm install",
+    "test": "node --check index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "guard",
+    "security",
+    "moderation",
+    "protection",
+    "anti-raid",
+    "discord.js"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.20.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/discord-guard-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/discord-guard-bot/issues"
+  },
+  "homepage": "https://github.com/yourusername/discord-guard-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "sqlite3": "^5.1.6",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1",
+    "@discordjs/voice": "^0.16.1"
+  }
+}
